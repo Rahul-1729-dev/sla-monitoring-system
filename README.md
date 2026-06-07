@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# Decentralized SLA Monitoring System
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A blockchain-based SLA monitoring platform that:
 
-Try running some of the following tasks:
+- Monitors website uptime
+- Stores logs in MongoDB
+- Records monitoring data on Ethereum Sepolia
+- Automatically transfers SLA penalties
+- Provides a real-time dashboard
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Tech Stack
+
+- Solidity
+- Hardhat
+- Ethereum Sepolia
+- Node.js
+- Express.js
+- MongoDB
+- Ethers.js
+- HTML/CSS/JavaScript
