@@ -1,5 +1,9 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment files
 .env
+backend/.env
 
 # Hardhat files
 /cache
@@ -9,9 +13,17 @@ node_modules
 /typechain
 /typechain-types
 
-# solidity-coverage files
+# Solidity coverage
 /coverage
 /coverage.json
 
-# Hardhat Ignition default folder for deployments against a local node
+# Hardhat Ignition deployments
 ignition/deployments/chain-31337
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
