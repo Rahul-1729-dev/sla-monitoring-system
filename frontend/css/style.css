@@ -1,0 +1,25 @@
+body{
+  background:#f5f7fb;
+}
+
+.card{
+  border:none;
+  border-radius:15px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.status-up{
+  color:green;
+  font-weight:bold;
+}
+
+.status-down{
+  color:red;
+  font-weight:bold;
+}
+
+.wallet-box{
+  background:#f8f9fa;
+  padding:15px;
+  border-radius:10px;
+}
