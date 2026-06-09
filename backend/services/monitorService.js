@@ -21,15 +21,12 @@ module.exports = function startMonitoring(){
 
             const start = Date.now();
 
-            const response = await axios.get(
-                process.env.WEBSITE_URL,
-                {
-                    timeout:10000,
-                    headers:{
-                        "User-Agent":"Mozilla/5.0"
-                    }
-                }
-            );
+            const response = await axios.get(process.env.WEBSITE_URL, {
+                timeout: process.env.MONITOR_INTERVAL,
+                headers: {
+                    "User-Agent": "Mozilla/5.0",
+                },
+            });
 
             const responseTime =
                 Date.now() - start;
